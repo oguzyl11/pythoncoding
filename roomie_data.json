@@ -1,0 +1,22 @@
+{
+    "101": {
+        "room_type": "standard",
+        "price": 100,
+        "situation": "available"
+    },
+    "102": {
+        "room_type": "deluxe",
+        "price": 180,
+        "situation": "available"
+    },
+    "103": {
+        "room_type": "standard",
+        "price": 100,
+        "situation": "available"
+    },
+    "104": {
+        "room_type": "suite",
+        "price": 180,
+        "situation": "available"
+    }
+}
