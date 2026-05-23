@@ -60,7 +60,7 @@ def check_in(db):
              print("Invalid room number. Please enter a valid room number (101, 102, 103, 104)." )
 def check_out(db):
       which_room = input("Enter the room number you want to check out from: ")
-        if which_room in db and db[which_room]["situation"] == "occupied":
+     if which_room in db and db[which_room]["situation"] == "occupied":
             db[which_room]["situation"] = "available"
             price = input("how many days did you stay?  ")
             total_price = int(price) * db[which_room]["price"]
